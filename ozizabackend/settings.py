@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-xo$!nzfpa3!qsyz7by8m4-is*xt7-jlz287q&@ettrkb6^moe-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.169.90', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['192.168.169.90', 'localhost', '127.0.0.1', 'djbackend-4aqm.onrender.com']
 
 CORS_ORIGIN_WHITELIST = [
     'http://192.168.169.90:8081',
