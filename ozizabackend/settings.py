@@ -17,7 +17,7 @@ from django.conf.global_settings import STATIC_ROOT
 from django.urls import path
 import os
 import dj_database_url
-from decouple import  config
+from decouple import config
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -31,7 +31,7 @@ SECRET_KEY = 'django-insecure-xo$!nzfpa3!qsyz7by8m4-is*xt7-jlz287q&@ettrkb6^moe-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.169.90', 'localhost', '127.0.0.1', 'djbackend-4aqm.onrender.com']
+ALLOWED_HOSTS = ['192.168.169.90', 'localhost', '127.0.0.1', 'https://djbackend-9d8q.onrender.com', 'djbackend-9d8q.onrender.com']
 
 CORS_ORIGIN_WHITELIST = [
     'http://192.168.169.90:8081',
